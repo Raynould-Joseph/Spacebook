@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background"
+    android:orientation="vertical"
     tools:context=".login">
     <TextView
         android:id="@+id/signin"
@@ -23,7 +24,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/signin"
         android:hint="Username"
-          android:textColor="@color/white"
+        android:textColor="@color/white"
         android:textColorHint="@color/white"
         android:layout_margin="10dp"
         android:padding="20dp"
