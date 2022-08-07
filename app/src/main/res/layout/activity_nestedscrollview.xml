@@ -1,0 +1,121 @@
+<?xml version =   "1.0" encoding =   "utf-8" ?>
+<ScrollView xmlns:android = "http://schemas.android.com/apk/res/android"
+    xmlns:app = "http://schemas.android.com/apk/res-auto"
+    xmlns:tools = "http://schemas.android.com/tools"
+    android:layout_width = "match_parent"
+    android:layout_height = "match_parent"
+    tools:context = ".MainActivity">
+    <LinearLayout
+        android:orientation = "vertical"
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content">
+    <!-- Nested Scroll View -->
+    <androidx.core.widget.NestedScrollView
+        android:layout_width = "match_parent"
+        android:layout_height = "200dp"
+        android:padding="@dimen/padding_regular">
+
+        <!-- Linear LAyout -->
+
+            <TextView
+                android:textSize = "12dp"
+                android:padding = "8dp"
+                android:layout_margin = "20dp"
+                android:fontFamily = "monospace"
+                android:textStyle = "bold"
+                android:text = "Life on Mars\n Mars is the fourth planet from the sun in our solar system. Also, it is the second smallest planet in our solar system. The possibility of life on mars has aroused the interest of scientists for many years. A major reason for this interest is due to the similarity and proximity of the planet to Earth. Mars certainly gives some indications of the possibility of life.\nIn the past, Mars used to look quite similar to Earth. Billions of years ago, there were certainly similarities between Mars and Earth. Furthermore, scientists believe that Mars once had a huge ocean. This ocean, experts believe, covered more of the planet’s surface than Earth’s own oceans do so currently.
+
+Moreover, Mars was much warmer in the past that it is currently. Most noteworthy, warm temperature and water are two major requirements for life to exist. So, there is a high probability that previously there was life on Mars.
+
+Life on Earth can exist in the harshest of circumstances. Furthermore, life exists in the most extreme places on Earth. Moreover, life on Earth is available in the extremely hot and dry deserts. Also, life exists in the extremely cold Antarctica continent. Most noteworthy, this resilience of life gives plenty of hope about life on Mars.
+
+There are some ingredients for life that already exist on Mars. Bio signatures refer to current and past life markers. Furthermore, scientists are scouring the surface for them. Moreover, there has been an emergence of a few promising leads. One notable example is the presence of methane in Mars’s atmosphere. Most noteworthy, scientists have no idea where the methane is coming from. Therefore, a possibility arises that methane presence is due to microbes existing deep below the planet’s surface.
+
+One important point to note is that no scratching of Mars’s surface has taken place. Furthermore, a couple of inches of scratching has taken place until now. Scientists have undertaken analysis of small pinches of soil. There may also have been a failure to detect signs of life due to the use of faulty techniques. Most noteworthy, there may be “refugee life” deep below the planet’s surface."
+                android:layout_width = "match_parent"
+                android:layout_height = "wrap_content"/>
+
+
+    </androidx.core.widget.NestedScrollView>
+        <Button
+            android:id="@+id/nasa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="VISIT NASA"/>
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_margin="16dp"
+            android:padding="2dp"
+            android:src="@drawable/nestedscrolliew" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_margin="16dp"
+            android:padding="2dp"
+            android:src="@drawable/nestedscrolliew" />
+
+
+    <LinearLayout
+        android:orientation = "vertical"
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content">
+        <!-- Nested Scroll View -->
+        <androidx.core.widget.NestedScrollView
+            android:layout_width = "match_parent"
+            android:layout_height = "200dp"
+            android:padding="@dimen/padding_regular">
+
+            <!-- Linear LAyout -->
+
+            <TextView
+                android:textSize = "12dp"
+                android:padding = "8dp"
+                android:layout_margin = "20dp"
+                android:fontFamily = "monospace"
+                android:textStyle = "bold"
+                android:text = "Life on Mars\n Mars is the fourth planet from the sun in our solar system. Also, it is the second smallest planet in our solar system. The possibility of life on mars has aroused the interest of scientists for many years. A major reason for this interest is due to the similarity and proximity of the planet to Earth. Mars certainly gives some indications of the possibility of life.\nIn the past, Mars used to look quite similar to Earth. Billions of years ago, there were certainly similarities between Mars and Earth. Furthermore, scientists believe that Mars once had a huge ocean. This ocean, experts believe, covered more of the planet’s surface than Earth’s own oceans do so currently.
+
+Moreover, Mars was much warmer in the past that it is currently. Most noteworthy, warm temperature and water are two major requirements for life to exist. So, there is a high probability that previously there was life on Mars.
+
+Life on Earth can exist in the harshest of circumstances. Furthermore, life exists in the most extreme places on Earth. Moreover, life on Earth is available in the extremely hot and dry deserts. Also, life exists in the extremely cold Antarctica continent. Most noteworthy, this resilience of life gives plenty of hope about life on Mars.
+
+There are some ingredients for life that already exist on Mars. Bio signatures refer to current and past life markers. Furthermore, scientists are scouring the surface for them. Moreover, there has been an emergence of a few promising leads. One notable example is the presence of methane in Mars’s atmosphere. Most noteworthy, scientists have no idea where the methane is coming from. Therefore, a possibility arises that methane presence is due to microbes existing deep below the planet’s surface.
+
+One important point to note is that no scratching of Mars’s surface has taken place. Furthermore, a couple of inches of scratching has taken place until now. Scientists have undertaken analysis of small pinches of soil. There may also have been a failure to detect signs of life due to the use of faulty techniques. Most noteworthy, there may be “refugee life” deep below the planet’s surface."
+                android:layout_width = "match_parent"
+                android:layout_height = "wrap_content"/>
+
+        </androidx.core.widget.NestedScrollView>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_margin="16dp"
+            android:padding="2dp"
+            android:src="@drawable/nestedscrolliew" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_margin="16dp"
+            android:padding="2dp"
+            android:src="@drawable/nestedscrolliew" />
+    </LinearLayout>
+    </LinearLayout>
+
+
+</ScrollView>
+
+
+
+
+
+
+
+
+
