@@ -5,19 +5,26 @@
       <map>
         <entry key="..\:/Users/Hp/AndroidStudioProjects/Spacebook/app/src/main/res/drawable/button_bg.xml" value="0.1" />
         <entry key="..\:/Users/Hp/AndroidStudioProjects/Spacebook/app/src/main/res/drawable/edit_text_bg.xml" value="0.1" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/Spacebook/app/src/main/res/drawable/sw_thumb.xml" value="0.1" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/Spacebook/app/src/main/res/drawable/sw_track.xml" value="0.1" />
         <entry key="..\:/Users/Hp/AndroidStudioProjects/Spacebook/app/src/main/res/drawable/view_bg.xml" value="0.1" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/Spacebook/app/src/main/res/layout/activity_feed_back.xml" value="0.176" />
         <entry key="..\:/Users/Hp/AndroidStudioProjects/Spacebook/app/src/main/res/layout/activity_jameswebframelayout.xml" value="0.1" />
         <entry key="..\:/Users/Hp/AndroidStudioProjects/Spacebook/app/src/main/res/layout/activity_login.xml" value="0.152" />
         <entry key="..\:/Users/Hp/AndroidStudioProjects/Spacebook/app/src/main/res/layout/activity_main.xml" value="0.16" />
-        <entry key="..\:/Users/Hp/AndroidStudioProjects/Spacebook/app/src/main/res/layout/activity_main2.xml" value="0.1" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/Spacebook/app/src/main/res/layout/activity_main2.xml" value="0.176" />
         <entry key="..\:/Users/Hp/AndroidStudioProjects/Spacebook/app/src/main/res/layout/activity_nestedscrollview.xml" value="0.18280467445742904" />
         <entry key="..\:/Users/Hp/AndroidStudioProjects/Spacebook/app/src/main/res/layout/activity_scrollview.xml" value="0.2850467289719626" />
         <entry key="..\:/Users/Hp/AndroidStudioProjects/Spacebook/app/src/main/res/layout/activity_scrollview1.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Hp/AndroidStudioProjects/Spacebook/app/src/main/res/layout/activity_second.xml" value="0.1" />
         <entry key="..\:/Users/Hp/AndroidStudioProjects/Spacebook/app/src/main/res/layout/activity_splash_screen.xml" value="0.1" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/Spacebook/app/src/main/res/layout/activity_toogle_button.xml" value="0.1" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/Spacebook/app/src/main/res/layout/activity_toogle_button2.xml" value="0.264" />
         <entry key="..\:/Users/Hp/AndroidStudioProjects/Spacebook/app/src/main/res/layout/activity_userpage.xml" value="0.2" />
         <entry key="..\:/Users/Hp/AndroidStudioProjects/Spacebook/app/src/main/res/layout/login_tab_fragment.xml" value="0.176" />
         <entry key="..\:/Users/Hp/AndroidStudioProjects/Spacebook/app/src/main/res/layout/signup_tab_fragment.xml" value="0.152" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/Spacebook/app/src/main/res/layout/use_switch.xml" value="0.1" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/Spacebook/app/src/main/res/menu/action_menu.xml" value="0.1" />
       </map>
     </option>
   </component>

@@ -18,10 +18,21 @@ public class MainActivity2 extends AppCompatActivity {
         Button nestedScrollviewButton=findViewById(R.id.btn_3);
         Button jameswebb_framelayout=findViewById(R.id.btn_4);
         Button implict_intent=findViewById(R.id.btn_5);
+        Button toggle_button=findViewById(R.id.btn_6);
+
+
+
         scrollviewButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent i = new Intent(MainActivity2.this, scrollview.class);
+                startActivity(i);
+            }
+        });
+        toggle_button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(MainActivity2.this, toogleButton.class);
                 startActivity(i);
             }
         });

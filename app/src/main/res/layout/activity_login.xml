@@ -7,16 +7,19 @@
     android:background="@drawable/background"
     android:orientation="vertical"
     tools:context=".login">
+
     <TextView
         android:id="@+id/signin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
         android:text="Sign in"
-        android:textStyle="bold"
         android:textColor="@color/white"
         android:textSize="35dp"
-        android:layout_margin="50dp"
-        android:gravity="center"/>
+        android:textStyle="bold" />
 
     <EditText
         android:id="@+id/username"
@@ -44,26 +47,48 @@
         android:padding="20dp"
         android:background="#30ffffff"
         android:drawableLeft="@drawable/ic_baseline_security_24"
-        android:drawablePadding="20dp"/>
+        android:drawablePadding="20dp"/><![CDATA[
+
+/>
+    ]]>
+    <Spinner
+        android:id="@+id/planet_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/password"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <com.google.android.material.button.MaterialButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:id="@+id/loginbtn"
-        android:layout_below="@+id/password"
-        android:text="Login"
-        app:backgroundTint="@color/design_default_color_secondary"
-        android:layout_centerHorizontal="true"
-        android:layout_margin="20dp"/>
-    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/forgetpass"
-        android:text="Forget Password ?"
-        android:layout_below="@+id/loginbtn"
-        android:textColor="@color/white"
+        android:layout_below="@+id/password"
         android:layout_centerHorizontal="true"
-        android:layout_margin="20dp"/>
-        <TextView
+        android:layout_marginTop="59dp"
+        android:layout_marginBottom="20dp"
+        android:text="Login"
+        app:backgroundTint="@color/design_default_color_secondary" />
+
+    <TextView
+        android:id="@+id/forgetpass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/loginbtn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="Forget Password ?"
+        android:textColor="@color/white" />
+
+    <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/others"
