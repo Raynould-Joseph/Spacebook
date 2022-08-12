@@ -19,6 +19,7 @@ public class MainActivity2 extends AppCompatActivity {
         Button jameswebb_framelayout=findViewById(R.id.btn_4);
         Button implict_intent=findViewById(R.id.btn_5);
         Button toggle_button=findViewById(R.id.btn_6);
+        Button web_view= findViewById(R.id.btn_7);
 
 
 
@@ -61,6 +62,13 @@ public class MainActivity2 extends AppCompatActivity {
                 if(i.resolveActivity(getPackageManager())!=null){
                     startActivity(i);
                 }
+            }
+        });
+        web_view.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(MainActivity2.this, web_view.class);
+                startActivity(i);
             }
         });
 

@@ -6,28 +6,38 @@
     android:layout_height="match_parent"
     tools:context=".feedBack">
 
-        <TextView
-            android:id="@+id/textView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Your Space Knowledge"
-            android:textColor="@color/white"
-            android:textSize="23dp"
-            android:textStyle="bold"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.045"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.085" />
 
-
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="31dp"
+        android:layout_marginEnd="17dp"
+        android:text="Your Space Knowledge"
+        android:textColor="@color/white"
+        android:textSize="23dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.045"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.085" />
 
     <HorizontalScrollView
         android:id="@+id/horizontalScrollView"
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:layout_marginTop="18dp">
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="-3dp">
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -36,49 +46,59 @@
 
             <RadioGroup
                 android:id="@+id/radio_button"
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="50dp" />
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
 
             <RadioButton
-                android:layout_width="wrap_content"
+                android:id="@+id/beginner"
+                android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="25dp"
                 android:layout_marginLeft="10dp"
+                android:layout_marginTop="25dp"
                 android:layout_marginRight="10dp"
                 android:text="Beginer"
-                android:textSize="12dp" />
+                android:textSize="12dp"
+                android:onClick="checkButton"/>
 
             <RadioButton
+                android:id="@+id/intermediate"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="25dp"
                 android:layout_marginLeft="10dp"
+                android:layout_marginTop="25dp"
                 android:layout_marginRight="10dp"
                 android:text="Intermediate"
-                android:textSize="12dp" />
+                android:textSize="12dp"
+                android:onClick="checkButton"/>
 
             <RadioButton
-                android:layout_width="fill_parent"
+                android:id="@+id/expert"
+                android:layout_width="94dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
-                android:layout_marginRight="10dp"
                 android:layout_marginTop="25dp"
+                android:layout_marginRight="10dp"
                 android:text="Expert"
-                android:textSize="12dp" />
+                android:textSize="12dp"
+                android:onClick="checkButton"/>
+            </RadioGroup>
         </LinearLayout>
     </HorizontalScrollView>
 
     <TextView
         android:id="@+id/check_btn"
-        android:layout_width="wrap_content"
+        android:layout_width="388dp"
         android:layout_height="wrap_content"
-        android:layout_alignParentEnd="@+id/horizontalScrollView"
+        android:layout_below="@+id/horizontalScrollView"
+        android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="@+id/horizontalScrollView"
         android:layout_marginStart="5dp"
-        android:layout_marginTop="112dp"
-        android:layout_marginEnd="137dp"
-        android:layout_marginBottom="587dp"
+        android:layout_marginTop="31dp"
+        android:layout_marginEnd="17dp"
+        android:layout_marginBottom="34dp"
         android:text="Which is your best agency"
         android:textColor="@color/white"
         android:textSize="23dp"
@@ -91,22 +111,25 @@
         app:layout_constraintVertical_bias="0.085" />
 
     <HorizontalScrollView
-        android:id="@+id/radio_scroll_view"
-        android:layout_width="match_parent"
-        android:layout_height="89dp"
+        android:id="@+id/best_agency"
+        android:layout_width="407dp"
+        android:layout_height="56dp"
+        android:layout_below="@+id/check_btn"
         android:layout_alignParentStart="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="11dp"
-        android:layout_marginTop="18dp"
-        android:layout_marginBottom="486dp">
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="-5dp"
+        android:layout_marginBottom="30dp">
 
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
 
+
             <CheckBox
-                android:layout_width="wrap_content"
+                android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="25dp"
@@ -115,7 +138,7 @@
                 android:textSize="12dp" />
 
             <CheckBox
-                android:layout_width="wrap_content"
+                android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="25dp"
@@ -124,7 +147,7 @@
                 android:textSize="12dp" />
 
             <CheckBox
-                android:layout_width="wrap_content"
+                android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="25dp"
@@ -134,6 +157,16 @@
 
         </LinearLayout>
     </HorizontalScrollView>
+
+    <Button
+        android:id="@+id/submit_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="123dp"
+        android:text="Submit" />
+
 
 </RelativeLayout>
 
