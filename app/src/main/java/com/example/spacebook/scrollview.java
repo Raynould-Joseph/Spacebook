@@ -10,11 +10,15 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class scrollview extends AppCompatActivity {
 
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_scrollview);
         Button mail=findViewById(R.id.mail_me);
+
+
 
         mail.setOnClickListener(new View.OnClickListener() {
             @Override

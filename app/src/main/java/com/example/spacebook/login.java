@@ -66,7 +66,7 @@ public class login extends AppCompatActivity implements AdapterView.OnItemSelect
 
                     }
                     else{
-                        if(USERNAME.equals("admin")&&PASSWORD.equals("admin"))
+                        if(USERNAME.equals("a")&&PASSWORD.equals("a"))
                         {
                             //correct password
                             Toast.makeText(login.this,"Login Sucessfull",Toast.LENGTH_SHORT).show();
