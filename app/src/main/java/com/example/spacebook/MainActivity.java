@@ -13,6 +13,7 @@ public class MainActivity extends AppCompatActivity {
     FloatingActionButton fab;
 
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -20,6 +21,8 @@ public class MainActivity extends AppCompatActivity {
         Button b=findViewById(R.id.btn_1);
         Button b2=findViewById(R.id.log_btn);
         Button b3= findViewById(R.id.feedback_btn);
+
+
 
         b.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -46,4 +49,6 @@ public class MainActivity extends AppCompatActivity {
         });
 
     }
+
+
 }

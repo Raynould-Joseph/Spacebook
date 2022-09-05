@@ -15,12 +15,12 @@
         <entry key="..\:/Users/Hp/AndroidStudioProjects/Spacebook/app/src/main/res/drawable/view_bg.xml" value="0.1" />
         <entry key="..\:/Users/Hp/AndroidStudioProjects/Spacebook/app/src/main/res/layout/activity_add_content.xml" value="0.13722826086956522" />
         <entry key="..\:/Users/Hp/AndroidStudioProjects/Spacebook/app/src/main/res/layout/activity_facts_about_space.xml" value="0.1" />
-        <entry key="..\:/Users/Hp/AndroidStudioProjects/Spacebook/app/src/main/res/layout/activity_feed_back.xml" value="0.1" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/Spacebook/app/src/main/res/layout/activity_feed_back.xml" value="0.2" />
         <entry key="..\:/Users/Hp/AndroidStudioProjects/Spacebook/app/src/main/res/layout/activity_jameswebframelayout.xml" value="0.1" />
         <entry key="..\:/Users/Hp/AndroidStudioProjects/Spacebook/app/src/main/res/layout/activity_login.xml" value="0.152" />
         <entry key="..\:/Users/Hp/AndroidStudioProjects/Spacebook/app/src/main/res/layout/activity_main.xml" value="0.16" />
-        <entry key="..\:/Users/Hp/AndroidStudioProjects/Spacebook/app/src/main/res/layout/activity_main2.xml" value="0.176" />
-        <entry key="..\:/Users/Hp/AndroidStudioProjects/Spacebook/app/src/main/res/layout/activity_nestedscrollview.xml" value="0.18280467445742904" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/Spacebook/app/src/main/res/layout/activity_main2.xml" value="0.16" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/Spacebook/app/src/main/res/layout/activity_nestedscrollview.xml" value="0.10152284263959391" />
         <entry key="..\:/Users/Hp/AndroidStudioProjects/Spacebook/app/src/main/res/layout/activity_scrollview.xml" value="0.157439446366782" />
         <entry key="..\:/Users/Hp/AndroidStudioProjects/Spacebook/app/src/main/res/layout/activity_scrollview1.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Hp/AndroidStudioProjects/Spacebook/app/src/main/res/layout/activity_second.xml" value="0.1" />
@@ -35,14 +35,17 @@
         <entry key="..\:/Users/Hp/AndroidStudioProjects/Spacebook/app/src/main/res/layout/appbar.xml" value="0.1" />
         <entry key="..\:/Users/Hp/AndroidStudioProjects/Spacebook/app/src/main/res/layout/content_web_view.xml" value="0.20833333333333334" />
         <entry key="..\:/Users/Hp/AndroidStudioProjects/Spacebook/app/src/main/res/layout/fragment_first.xml" value="0.20833333333333334" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/Spacebook/app/src/main/res/layout/fragment_fragment1.xml" value="0.14791666666666667" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/Spacebook/app/src/main/res/layout/fragment_fragment2.xml" value="0.13385416666666666" />
         <entry key="..\:/Users/Hp/AndroidStudioProjects/Spacebook/app/src/main/res/layout/fragment_second.xml" value="0.20833333333333334" />
         <entry key="..\:/Users/Hp/AndroidStudioProjects/Spacebook/app/src/main/res/layout/login_tab_fragment.xml" value="0.176" />
         <entry key="..\:/Users/Hp/AndroidStudioProjects/Spacebook/app/src/main/res/layout/signup_tab_fragment.xml" value="0.152" />
         <entry key="..\:/Users/Hp/AndroidStudioProjects/Spacebook/app/src/main/res/layout/use_switch.xml" value="0.1" />
         <entry key="..\:/Users/Hp/AndroidStudioProjects/Spacebook/app/src/main/res/menu/action_menu.xml" value="0.1" />
-        <entry key="..\:/Users/Hp/AndroidStudioProjects/Spacebook/app/src/main/res/menu/home_menu.xml" value="0.1" />
-        <entry key="..\:/Users/Hp/AndroidStudioProjects/Spacebook/app/src/main/res/menu/menu_contextual.xml" value="0.11458333333333333" />
-        <entry key="..\:/Users/Hp/AndroidStudioProjects/Spacebook/app/src/main/res/menu/menu_main.xml" value="0.1" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/Spacebook/app/src/main/res/menu/home_menu.xml" value="0.2" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/Spacebook/app/src/main/res/menu/menu_contextual.xml" value="0.33495145631067963" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/Spacebook/app/src/main/res/menu/menu_main.xml" value="0.4" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/Spacebook/app/src/main/res/menu/popup_menu.xml" value="0.11510416666666666" />
       </map>
     </option>
   </component>

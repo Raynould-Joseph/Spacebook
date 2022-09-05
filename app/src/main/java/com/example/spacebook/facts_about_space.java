@@ -6,9 +6,6 @@ import androidx.appcompat.app.AppCompatActivity;
 
 
 public class facts_about_space extends AppCompatActivity {
-
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
