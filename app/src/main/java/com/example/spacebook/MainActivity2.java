@@ -39,6 +39,7 @@ public class MainActivity2 extends AppCompatActivity {
         Button implict_intent=findViewById(R.id.btn_5);
         Button toggle_button=findViewById(R.id.btn_6);
         Button web_view= findViewById(R.id.btn_7);
+        Button knowledge_base=findViewById(R.id.btn_8);
 
 
 
@@ -87,6 +88,14 @@ public class MainActivity2 extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent i = new Intent(MainActivity2.this, web_view.class);
+                startActivity(i);
+            }
+        });
+
+        knowledge_base.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(MainActivity2.this, knowledge_base.class);
                 startActivity(i);
             }
         });

@@ -17,6 +17,9 @@
         android:usesCleartextTraffic="true"
         tools:targetApi="31">
         <activity
+            android:name=".knowledge_base"
+            android:exported="false" />
+        <activity
             android:name=".facts_about_space"
             android:exported="false" />
         <activity

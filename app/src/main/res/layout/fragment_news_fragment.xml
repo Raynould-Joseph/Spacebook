@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/black"
+    android:padding="20dp"
+    tools:context=".news_fragment">
+ <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Latest News"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+<ScrollView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            app:cardCornerRadius="15dp"
+            android:layout_marginTop="20dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/light_green"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/news1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Second Artemis 1 launch attempt scrubbed"
+                    android:textColor="@color/light_red"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="235dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/news1"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="5dp"
+                    android:text="NASA called off a second attempt \nto conduct the inaugural \nlaunch of the \nSpace Launch System Sept."
+                    android:textColor="@color/black"
+                    android:textSize="9sp" />
+
+                <ImageView
+                    android:layout_width="132dp"
+                    android:layout_height="68dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginRight="11dp"
+                    android:layout_marginBottom="3dp"
+                    android:maxHeight="100dp"
+                    android:src="@drawable/artemis" />
+
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            app:cardCornerRadius="15dp"
+            android:layout_marginTop="20dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/light_green"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/news2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Fuel leak ruins NASA’s second attempt at launching Moon rocket"
+                    android:textColor="@color/light_red"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="235dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/news2"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="5dp"
+                    android:text="SLS rocket springs another fuel leak,\nforcing NASA controllers to call off a \nsecond bid \nto send a crew capsule into lunar orbit."
+                    android:textColor="@color/black"
+                    android:textSize="9sp" />
+
+                <ImageView
+                    android:layout_width="132dp"
+                    android:layout_height="68dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginRight="11dp"
+                    android:layout_marginBottom="3dp"
+                    android:maxHeight="100dp"
+                    android:src="@drawable/new2moon" />
+
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            app:cardCornerRadius="15dp"
+            android:layout_marginTop="20dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/light_green"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/news3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Second Artemis 1 launch attempt scrubbed"
+                    android:textColor="@color/light_red"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="235dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/news3"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="5dp"
+                    android:text="SLS rocket springs another fuel leak, forcing NASA controllers to call off a second bid to send a crew capsule into lunar orbit."
+                    android:textColor="@color/black"
+                    android:textSize="9sp" />
+
+                <ImageView
+                    android:layout_width="132dp"
+                    android:layout_height="68dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginRight="11dp"
+                    android:layout_marginBottom="3dp"
+                    android:maxHeight="100dp"
+                    android:src="@drawable/artemis" />
+
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            app:cardCornerRadius="15dp"
+            android:layout_marginTop="20dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/light_green"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/news4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Second Artemis 1 launch attempt scrubbed"
+                    android:textColor="@color/light_red"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="235dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/news4"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="5dp"
+                    android:text="NASA called off a second attempt \nto conduct the inaugural \nlaunch of the \nSpace Launch System Sept."
+                    android:textColor="@color/black"
+                    android:textSize="9sp" />
+
+                <ImageView
+                    android:layout_width="132dp"
+                    android:layout_height="68dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginRight="11dp"
+                    android:layout_marginBottom="3dp"
+                    android:maxHeight="100dp"
+                    android:src="@drawable/artemis" />
+
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            app:cardCornerRadius="15dp"
+            android:layout_marginTop="20dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/light_green"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/news5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Second Artemis 1 launch attempt scrubbed"
+                    android:textColor="@color/light_red"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="235dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/news5"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="5dp"
+                    android:text="NASA called off a second attempt \nto conduct the inaugural \nlaunch of the \nSpace Launch System Sept."
+                    android:textColor="@color/black"
+                    android:textSize="9sp" />
+
+                <ImageView
+                    android:layout_width="132dp"
+                    android:layout_height="68dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginRight="11dp"
+                    android:layout_marginBottom="3dp"
+                    android:maxHeight="100dp"
+                    android:src="@drawable/artemis" />
+
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            app:cardCornerRadius="15dp"
+            android:layout_marginTop="20dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/light_green"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/news6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Second Artemis 1 launch attempt scrubbed"
+                    android:textColor="@color/light_red"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="235dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/news6"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="5dp"
+                    android:text="NASA called off a second attempt \nto conduct the inaugural \nlaunch of the \nSpace Launch System Sept."
+                    android:textColor="@color/black"
+                    android:textSize="9sp" />
+
+                <ImageView
+                    android:layout_width="132dp"
+                    android:layout_height="68dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginRight="11dp"
+                    android:layout_marginBottom="3dp"
+                    android:maxHeight="100dp"
+                    android:src="@drawable/artemis" />
+
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+</ScrollView>
+
+
+</LinearLayout>
